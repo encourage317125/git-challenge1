@@ -6,7 +6,7 @@ function handleHelloWorld(_: Request, res: Response) {
 }
 
 const app = express();
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 30080);
 
 app.get('/', handleHelloWorld);
 
